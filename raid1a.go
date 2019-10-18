@@ -5,9 +5,9 @@ import (
 )
 
 func Raid1a(x, y int) {
+	if x > 0 && y > 0 {
+		for i := 1; i <= y; i++ {
 
-	for i := 1; i <= y; i++ {
-		if x > 0 {
 			for j := 1; j <= x; j++ {
 
 				if j == 1 && i == 1 ||
@@ -23,7 +23,8 @@ func Raid1a(x, y int) {
 					z01.PrintRune(' ')
 				}
 			}
+
+			z01.PrintRune('\n')
 		}
-		z01.PrintRune('\n')
 	}
 }
