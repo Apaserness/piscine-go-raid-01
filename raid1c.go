@@ -9,7 +9,7 @@ func Top(x int) {
 		} else {
 			z01.PrintRune('B')
 		}
-		}
+	}
 	z01.PrintRune(10)
 }
 
@@ -33,7 +33,7 @@ func Bottom(x int) {
 		} else {
 			z01.PrintRune('B')
 		}
-		}
+	}
 	z01.PrintRune(10)
 }
 func Raid1c(x, y int) {
