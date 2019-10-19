@@ -3,8 +3,8 @@ package main
 import "github.com/01-edu/z01"
 
 func Top(x int) {
-	for i := 1; i <= x; i++ { //1 massiv
-		if i == 1{
+	for i := 1; i <= x; i++ { 
+		if i == 1 {
 			z01.PrintRune('/')
 		} else if i == x {
 			z01.PrintRune(92)
@@ -30,7 +30,7 @@ func Middle(x, y int) {
 
 func Bottom(x int) {
 	for i := 1; i <= x; i++ { //1 massiv
-		if i == 1{
+		if i == 1 {
 			z01.PrintRune(92)
 		} else if i == x {
 			z01.PrintRune('/')
