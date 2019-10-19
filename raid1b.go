@@ -7,12 +7,11 @@ func Top(x int) {
 		if i == 1 {
 			z01.PrintRune('/')
 		} else if i == x {
-			
 			z01.PrintRune(92)
 		} else {
 			z01.PrintRune('*')
 		} 
-		}
+	}
 	z01.PrintRune(10)
 }
 
@@ -34,7 +33,6 @@ func Bottom(x int) {
 		if i == 1 {
 			z01.PrintRune(92)
 		} else if i == x {
-			
 			z01.PrintRune('/')
 		} else {
 			z01.PrintRune('*')
