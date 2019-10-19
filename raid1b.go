@@ -12,7 +12,6 @@ func Top(x int) {
 			z01.PrintRune('*')
 		} 
 	}
-	}
 	z01.PrintRune(10)
 }
 
