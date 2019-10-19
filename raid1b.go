@@ -43,7 +43,7 @@ func Bottom(x int) {
 func Raid1a(x, y int) {
 	if x >= 1 && y >= 1 {
 		Top(x)
-		Middle(x,y)
+		Middle(x, y)
 		if y != 1 {
 			Bottom(x)
 		}
