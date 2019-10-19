@@ -10,7 +10,7 @@ func Top(x int) {
 			z01.PrintRune(92)
 		} else {
 			z01.PrintRune('*')
-		} 
+		}
 	}
 	z01.PrintRune(10)
 }
@@ -36,7 +36,7 @@ func Bottom(x int) {
 			z01.PrintRune('/')
 		} else {
 			z01.PrintRune('*')
-		} 
+		}
 	}
 	z01.PrintRune(10)
 }
