@@ -1,18 +1,18 @@
+
 package student
 
 import "github.com/01-edu/z01"
 
 func Top(x int) {
-	for i := 1; i <= x; i++ {
+	for i := 1; i <= x; i++ { //1 massiv
 		if i == 1 {
 			z01.PrintRune('A')
 		} else if i == x {
 			z01.PrintRune('C')
-		
 		} else {
 			z01.PrintRune('B')
-		} 
 		}
+	}
 	z01.PrintRune(10)
 }
 
@@ -30,16 +30,15 @@ func Middle(x, y int) {
 }
 
 func Bottom(x int) {
-	for i := 1; i <= x; i++ {
+	for i := 1; i <= x; i++ { //1 massiv
 		if i == 1 {
 			z01.PrintRune('A')
 		} else if i == x {
 			z01.PrintRune('C')
-		
 		} else {
 			z01.PrintRune('B')
 		}
-		}
+	}
 	z01.PrintRune(10)
 }
 func Raid1d(x, y int) {
