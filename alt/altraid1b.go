@@ -40,7 +40,7 @@ func bottomB(x int) {
 	}
 	z01.PrintRune(10)
 }
-func Raid1b(x, y int) {
+func AltRaid1b(x, y int) {
 	if x >= 1 && y >= 1 {
 		topB(x)
 		middleB(x, y)
