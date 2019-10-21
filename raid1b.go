@@ -4,7 +4,7 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func AltRaid1b(x, y int) {
+func Raid1b(x, y int) {
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
 			for j := 1; j <= x; j++ {
