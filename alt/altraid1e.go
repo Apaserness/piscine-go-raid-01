@@ -40,7 +40,7 @@ func bottomE(x int) {
 	}
 	z01.PrintRune(10)
 }
-func Raid1e(x, y int) {
+func AltRaid1e(x, y int) {
 	if x >= 1 && y >= 1 {
 		topD(x)
 		middleD(x, y)
