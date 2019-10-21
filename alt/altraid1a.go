@@ -1,4 +1,4 @@
-package main
+package student
 
 import "github.com/01-edu/z01"
 
@@ -34,8 +34,4 @@ func AltRaid1a(x, y int) {
 			Top(x)
 		}
 	}
-}
-
-func main() {
-	Raid1a(5,3)
 }
