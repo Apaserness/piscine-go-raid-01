@@ -36,7 +36,7 @@ func bottomC(x int) {
 	}
 	z01.PrintRune(10)
 }
-func Raid1c(x, y int) {
+func AltRaid1c(x, y int) {
 	if x >= 1 && y >= 1 {
 		topC(x)
 		middleC(x, y)
