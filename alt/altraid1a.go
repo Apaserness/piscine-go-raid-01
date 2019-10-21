@@ -26,7 +26,7 @@ func Middle(x, y int) {
 	}
 }
 
-func Raid1a(x, y int) {
+func AltRaid1a(x, y int) {
 	if x >= 1 && y >= 1 {
 		Top(x)
 		Middle(x,y)
